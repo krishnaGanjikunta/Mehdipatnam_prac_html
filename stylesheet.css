@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    border: 1px solid red;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.navbar {
+background-color: aqua;
+height: 40px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding-top:10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #111;
+    padding: 12.5px 90px;
+
+}
+.navbar ul li a:hover{
+    background-color: wheat;
+    color: black;
+}
+.cssgrids {
+   margin-top: 10px;
+   display: flex;
+}
+.cssgrids .tab{
+    margin-left:50px ;
+}
+
+.mobile1 ,.tab5 ,.lap1{
+    background-color: red;
+    text-align: center;
+    align-items: center;
+}
+.mobile2,.tab3 ,.lap6{
+    background-color: blue;
+    
+}
+.mobile3 ,.tab4 ,.lap4{
+    background-color: green;
+   
+}
+.mobile4,.tab6 ,.lap2{
+    background-color:yellow ;
+    
+}
+.mobile5,.tab1 ,.lap3{
+    background-color: plum;
+   
+}
+.mobile6,.tab2  ,.lap5{
+    background-color: pink;
+   
+}
+.tab,.mob{
+    height: 80px;
+    width: 300px;
+}
+.cssgrids .lap{
+    padding-left: 100px;
+}
+.laptop{
+    height: 80px;
+    width: 530px;
+}
+.lap .laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerImage{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+   
+}
+.banners{
+    border: 1px solid green;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(0, 255, 81);
+    
+}
+.one ,.two ,.three{
+    border:1px solid black;
+}
+.page1,.page3, .para2{
+    border: 1px solid black;
+    background-color:#FACFCE;
+}
+.para1,.page2,.para3{
+    border: 1px solid black;
+    background-color: #C2C0A6;
+}
+.para1,.para2,.para3{
+    height: 400px;
+}
